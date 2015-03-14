@@ -28,9 +28,9 @@
 		 * text. We're also not allowing the user to select more than one image.
 		 */
 		file_frame = wp.media.frames.file_frame = wp.media({
-			title:    "Browse Images",
+			title:    efi_strings.browse_images,
 			button:   {
-				text: "Set featured image"
+				text: efi_strings.select_image
 			},
 			multiple: false
 		});
